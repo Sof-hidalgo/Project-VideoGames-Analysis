@@ -8,6 +8,56 @@ Este proyecto analiza datos históricos de ventas de videojuegos para identifica
 ### 🎯 Objetivo del Proyecto:
 Determinar qué factores contribuyen al éxito de un videojuego para ayudar a la tienda online Ice a mejorar su planificación publicitaria y tomar decisiones informadas sobre títulos con alto potencial de ventas en 2017.
 
+### Descripción de datos
+— Name (Nombre)
+— Platform (Plataforma)
+— Year_of_Release (Año de lanzamiento)
+— Genre (Género) 
+— NA_sales (ventas en Norteamérica en millones de dólares estadounidenses) 
+— EU_sales (ventas en Europa en millones de dólares estadounidenses) 
+— JP_sales (ventas en Japón en millones de dólares estadounidenses) 
+— Other_sales (ventas en otros países en millones de dólares estadounidenses) 
+— Critic_Score (máximo de 100) 
+— User_Score (máximo de 10) 
+— Rating (ESRB)
+
+## Etapas de Análisis
+
+1. **Limpieza de Datos**:
+    - Convertir los nombres de las columnas a minúsculas para evitar errores de tipografía.
+    - Manejar los valores ausentes imputando datos adecuados o marcando los valores como `unknown`.
+    - Realizar análisis exploratorio de datos para identificar tendencias iniciales y detectar posibles outliers.
+    
+
+2. **Análisis de Ventas**:
+    - Evaluar la suma total de ventas por juego y plataforma.
+    - Analizar la distribución de lanzamientos de juegos a lo largo de los años y su impacto en las ventas.
+    - Identificar las plataformas más rentables y evaluar la duración de su ciclo de vida.
+    
+
+3. **Impacto de Reseñas y Críticas**:
+    - Investigar cómo las calificaciones de usuarios y críticos afectan las ventas de juegos en diferentes plataformas.
+    - Analizar la correlación entre las reseñas y el éxito comercial de un juego.
+    
+
+4. **Distribución por Género**:
+    - Examinar la distribución de juegos por género y su rentabilidad.
+    - Identificar patrones de ventas en géneros populares y de nicho.
+    
+
+5. **Análisis Regional**:
+    - Determinar las plataformas más populares en Norteamérica, Europa y Japón, y las diferencias en las cuotas de mercado.
+    - Evaluar cómo las clasificaciones ESRB afectan las ventas en cada región.
+    
+
+6. **Formulación de Hipótesis**:
+    - Comparar las calificaciones promedio de usuarios para diferentes plataformas y géneros, y probar la significancia de las diferencias observadas.
+
+
+7. **Conclusiones**:
+    - Resumir los hallazgos clave del análisis, destacando los factores que influyen en el éxito de los videojuegos, y proporcionar recomendaciones estratégicas para futuras campañas publicitarias.
+------
+
 ### 📊 Conclusiones Finales:
 - Plataformas más rentables: La PS2 es la plataforma con mayores ventas totales (1,255.77M), seguida por la X360 (971.42M) y la PS3 (939.65M). Sin embargo, la Wii mostró una tendencia a la baja en rentabilidad, mientras que las consolas de PlayStation han mantenido un ciclo de vida más estable con nuevas versiones.
 - Géneros más vendidos: Los videojuegos de Acción, Deportes y Shooter dominan las ventas, mientras que los géneros de Aventura y Estrategia son menos rentables, aunque pueden ser exitosos en mercados de nicho.
