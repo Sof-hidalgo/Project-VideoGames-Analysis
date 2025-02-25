@@ -9,17 +9,17 @@ Este proyecto analiza datos históricos de ventas de videojuegos para identifica
 Determinar qué factores contribuyen al éxito de un videojuego para ayudar a la tienda online Ice a mejorar su planificación publicitaria y tomar decisiones informadas sobre títulos con alto potencial de ventas en 2017.
 
 ### Descripción de datos
-— Name (Nombre)
-— Platform (Plataforma)
-— Year_of_Release (Año de lanzamiento)
-— Genre (Género) 
-— NA_sales (ventas en Norteamérica en millones de dólares estadounidenses) 
-— EU_sales (ventas en Europa en millones de dólares estadounidenses) 
-— JP_sales (ventas en Japón en millones de dólares estadounidenses) 
-— Other_sales (ventas en otros países en millones de dólares estadounidenses) 
-— Critic_Score (máximo de 100) 
-— User_Score (máximo de 10) 
-— Rating (ESRB)
+- Name (Nombre)
+- Platform (Plataforma)
+- Year_of_Release (Año de lanzamiento)
+- Genre (Género) 
+- NA_sales (ventas en Norteamérica en millones de dólares estadounidenses) 
+- EU_sales (ventas en Europa en millones de dólares estadounidenses) 
+- JP_sales (ventas en Japón en millones de dólares estadounidenses) 
+- Other_sales (ventas en otros países en millones de dólares estadounidenses) 
+- Critic_Score (máximo de 100) 
+- User_Score (máximo de 10) 
+- Rating (ESRB)
 
 ## Etapas de Análisis
 
